@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section style="display: flex;flex-direction: column;gap:40px;text-align: center;" class="wishlist layout">
+            <h1>Wishlist</h1>
+            <div style="display: flex;" id="wishlist-items"></div>
+            <button style="background-color: green;" onclick="goToHome()">Back to Home</button>
+        </section>
+         <section id="productwishlist" class="products layout">
+            <div id="wishlist-items">
+
+            </div>
+            <div>
+                <span id="cart-count">0</span> items in cart
+            </div>
+            <div>
+                <span id="wishlist-count">0</span> items in wishlist
+            </div>
+            <div id="wishlist-icon">
+                <i class="fa-solid fa-heart"></i>
+                <span id="wishlist-count">0</span>
+            </div>
+
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

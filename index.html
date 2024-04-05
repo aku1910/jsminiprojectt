@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CozaStore Benzeri Sayfa</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header id="header12">
+        <div class="navbar">
+            <div class="menu">
+                <a href="#" class="navlogo">
+                    <img src="./logo-01.png.webp" alt="">
+                </a>
+                <ul class="ulmenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="navicon">
+                <div class="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div class="basket">
+                    <div id="sidebar" class="sidebar">
+                        
+                         <h1>Your Cart  <button id="closeSidebar"><i class="fa-solid fa-x"></i></button></h1>
+                         <div class="basket-items">
+
+                         </div>
+                        Total: <div id="total">0</div>
+                    </div>
+                    <i class="fa-solid fa-cart-shopping" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight">
+                        <span class="cart-items" id="say">0</span>
+                    </i>
+
+
+                </div>
+                <div class="heart"><i class="far fa-heart"><span>0</span></i></div>
+                <div class="navbarhamburger"><i class="fa-solid fa-bars"></i></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="slider-container">
+            <div class="slider">
+                <div class="slide1 slide">
+                    <div class="firstslideword">
+                        <div data-aos="fade-down" data-aos-duration="3000" data-aos-once=“true” class="salam">
+                            <span>Women Collection 2018</span></div>
+                        <div data-aos="fade-up" data-aos-duration="3000" data-aos-once=“true”>
+                            <h2>NEW SEASON</h2>
+                        </div>
+                        <div data-aos="fade-down" data-aos-duration="3000" data-aos-once=“true”><button>SHOP
+                                NOW</button></div>
+
+                    </div>
+                </div>
+                <div class="slide2 slide">
+                    <div class="firstslideword">
+                        <div data-aos="fade-down" data-aos-duration="3000" data-aos-once=“true”><span>Men Collection
+                                2018</span></div>
+                        <div data-aos="fade-up" data-aos-duration="3000">
+                            <h2>Jackets & Coats </h2>
+                        </div>
+                        <div data-aos="fade-down" data-aos-duration="3000" data-aos-once=“true”><button>SHOP
+                                NOW</button></div>
+
+                    </div>
+                </div>
+                <div class="slide3 slide">
+                    <div class="firstslideword">
+                        <div data-aos="fade-down" data-aos-duration="3000" data-aos-once=“true”> <span>Women Collection
+                                2018</span></div>
+                        <div data-aos="fade-up" data-aos-duration="3000" data-aos-once=“true”>
+                            <h2>NEW ARRIVALS</h2>
+                        </div>
+                        <div data-aos="fade-down" data-aos-duration="3000" data-aos-once=“true”><button>SHOP
+                                NOW</button></div>
+                    </div>
+                </div>
+            </div>
+            <button class="prev" onclick="changeSlide(-1)"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="next" onclick="changeSlide(1)"><i class="fa-solid fa-arrow-right"></i></button>
+        </section>
+
+        <section class="wrapper">
+            <div class="card">
+                <img src="https://preview.colorlib.com/theme/cozastore/images/banner-01.jpg.webp" alt="">
+                <div class="infoo">
+                    <h2>Women</h2><span>Spring 2018</span>
+                </div>
+                <div class="info">
+                    <a href="#" class="btn">SHOP NOW</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://preview.colorlib.com/theme/cozastore/images/banner-02.jpg.webp" alt="">
+                <div class="infoo">
+                    <h2>Men</h2><span>Spring 2018</span>
+                </div>
+                <div class="info">
+                    <a href="#" class="btn">SHOP NOW</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://preview.colorlib.com/theme/cozastore/images/banner-03.jpg.webp" alt="">
+                <div class="infoo">
+                    <h2>Accesories</h2><span>New Trend</span>
+                </div>
+                <div class="info">
+                    <a href="#" class="btn">SHOP NOW</a>
+                </div>
+            </div>
+            </div>
+        </section>
+         <section>
+             <h1 class="productt">PRODUCT OVERVIEW</h1>
+            <div class="choices">
+                <ul>
+                    <li><a href="" id="all">All Products <span class="active"></span></a></li>
+                    <li><a href="" id="women">Women <span class="active"></span></a></li>
+                    <li><a href="" id="men">Men <span class="active"></span></a></li>
+                    <li><a href="" id="bag">Bag <span class="active"></span></a></li>
+                    <li><a href="" id="shoes">Shoes <span class="active"></span></a></li>
+                    <li><a href="" id="watches">Watches <span class="active"></span></a></li>
+                </ul>
+                <div>
+                    <a><i class="fa-solid fa-filter"></i>Filter</a>
+                    <a><i class="fa-solid fa-magnifying-glass"></i>Search</a>
+                </div>
+            </div>
+         </section>
+
+        <section>
+            <ul id="userlist"></ul>
+            <button id="more-products">DOWNLOAD MORE</button>
+
+        </section>
+    </main>
+
+
+
+    <footer>
+        <div class="foot">
+            <div class="categories">
+                <h4>CATEGORIES</h4>
+                <span>Women</span>
+                <span>Men</span>
+                <span>Shoes</span>
+                <span>Watches</span>
+            </div>
+            <div class="categories">
+                <h4>HELP</h4>
+                <span>Track Order</span>
+                <span>Returns</span>
+                <span>Shipping</span>
+                <span>FAQs</span>
+            </div>
+            <div class="categories">
+                <h4>GET IN TOUCH</h4>
+                <span>Any questions? Let us know in store at 8th floor,<br> 379 Hudson St, New York, NY 10018 or <br>
+                    call us on (+1) 96 716 6879</span>
+                <div class="icons">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                </div>
+
+            </div>
+            <div class="categories">
+                <h4>NEWSLETTER</h4>
+                <input style="outline: ofset;" type="email">
+                <button>SUBSCRIBE</button>
+            </div>
+        </div>
+    </footer>
+    <footer>
+        <div class="foot1">
+            <div class="creditcart">
+                <img src="https://preview.colorlib.com/theme/cozastore/images/icons/icon-pay-01.png.webp" alt="">
+                <img src="https://preview.colorlib.com/theme/cozastore/images/icons/icon-pay-02.png.webp" alt="">
+                <img src="https://preview.colorlib.com/theme/cozastore/images/icons/icon-pay-03.png.webp" alt="">
+                <img src="https://preview.colorlib.com/theme/cozastore/images/icons/icon-pay-04.png.webp" alt="">
+                <img src="https://preview.colorlib.com/theme/cozastore/images/icons/icon-pay-05.png.webp" alt="">
+            </div>
+            <span class="span">Copyright ©2024 All rights reserved | This template is made with by Colorlib</span>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <script src="./script.js"></script> -->
+    <script type="module" src="script.js"></script>
+    
+
+</body>
+
+</html>
